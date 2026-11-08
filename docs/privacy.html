@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Конфиденциальность · Justify</title>
+  <meta name="description" content="Что Justify хранит на компьютере, куда обращается и что делает этот сайт. Без рекламы, аналитики и продажи данных.">
+  <link rel="canonical" href="https://sanlaran.github.io/Justify/privacy.html">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" sizes="512x512" href="img/icon.png">
+  <meta property="og:title" content="Конфиденциальность · Justify">
+  <meta property="og:image" content="https://sanlaran.github.io/Justify/img/og.png">
+  <link rel="preload" href="fonts/manrope-cyrillic-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link button-sm" href="#main">Перейти к содержанию</a>
+  <header>
+    <nav class="nav" aria-label="Основное меню">
+      <a class="nav-logo body-1" href="./" aria-label="Justify, на главную"><svg viewBox="0 0 512 512" aria-hidden="true" focusable="false"><circle cx="256" cy="256" r="248" fill="#1ED760"/><g fill="#000"><rect x="148" y="220" width="36" height="72" rx="18"/><rect x="208" y="172" width="36" height="168" rx="18"/><rect x="268" y="202" width="36" height="108" rx="18"/><rect x="328" y="232" width="36" height="48" rx="18"/></g></svg><span>Justify</span></a>
+      <a class="btn btn-ghost button-sm" href="./">На главную</a>
+      <a class="btn btn-primary button-sm" href="https://github.com/SanLARAN/Justify/releases/latest/download/Justify-win64.zip"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true" focusable="false"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></svg>Скачать</a>
+    </nav>
+  </header>
+  <main id="main" class="page">
+    <article class="container">
+      <div class="prose">
+        <p class="eyebrow caption-1"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true" focusable="false"><path d="M208,40H48A16,16,0,0,0,32,56v56c0,52.72,25.52,84.67,46.93,102.19,23.06,18.86,46,25.26,47,25.53a8,8,0,0,0,4.2,0c1-.27,23.91-6.67,47-25.53C198.48,196.67,224,164.72,224,112V56A16,16,0,0,0,208,40Zm0,72c0,37.07-13.66,67.16-40.6,89.42A129.3,129.3,0,0,1,128,223.62a128.25,128.25,0,0,1-38.92-21.81C61.82,179.51,48,149.3,48,112l0-56,160,0ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"/></svg>Обновлено 8 ноября 2026</p>
+        <h1 class="heading-3 lg-heading-2">Конфиденциальность</h1>
+        <p class="title-2">Justify не показывает рекламу, не собирает аналитику и не продаёт данные. Ниже перечислено, что программа хранит и куда обращается.</p>
+
+        <h2 class="heading-5">Что хранится на компьютере</h2>
+        <p class="body-3">Медиатека, плейлисты, лайки, история, настройки, кэш треков и скачанное для офлайна лежат в папке <strong>%APPDATA%\Justify</strong>. Удалите её, и все данные исчезнут. Cookies YouTube, если вы их добавили, хранятся там же и отправляются только в YouTube.</p>
+
+        <h2 class="heading-5">Куда обращается Justify</h2>
+        <ul class="body-3">
+          <li><strong>Сервисы музыки:</strong> YouTube и YouTube Music, SoundCloud, Зайцев.нет, Audius. Туда уходят поисковые запросы, оттуда приходят треки и обложки.</li>
+          <li><strong>LRCLIB:</strong> тексты песен по названию трека.</li>
+          <li><strong>Google Translate и MyMemory:</strong> строки текста песни, когда вы включаете «Перевод».</li>
+          <li><strong>GitHub:</strong> проверка и загрузка обновлений.</li>
+          <li><strong>alphacephei.com:</strong> однократная загрузка модели речи, если вы включили голос «Джасти». Сама речь распознаётся на компьютере и никуда не отправляется.</li>
+          <li><strong>Яндекс Музыка:</strong> только если вы сами переносите оттуда плейлисты.</li>
+          <li><strong>Discord:</strong> если включён статус, Justify передаёт название трека и обложку программе Discord на вашем компьютере.</li>
+        </ul>
+        <p class="body-3">Если в настройках указан прокси, все эти запросы идут через него.</p>
+
+        <h2 class="heading-5">Аккаунт «Тише», по желанию</h2>
+        <p class="body-3">Если войти в аккаунт, лайки, плейлисты, история и настройки синхронизируются через сервер игры «Тише», а друзья видят трек, который вы слушаете. Выйти и остановить синхронизацию можно в Настройки → Аккаунт «Тише».</p>
+
+        <h2 class="heading-5">Этот сайт</h2>
+        <p class="body-3">Сайт размещён на GitHub Pages. Он не ставит cookies и не использует счётчики. Чтобы показать номер последней версии, страница обращается к api.github.com. GitHub ведёт технические журналы по своей <a class="link" href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">политике конфиденциальности</a>.</p>
+
+        <h2 class="heading-5">Вопросы</h2>
+        <p class="body-3">Пишите в <a class="link" href="https://github.com/SanLARAN/Justify/issues" target="_blank" rel="noopener">Issues на GitHub</a>.</p>
+        <p><a class="btn btn-secondary button-md" href="./"><svg class="ic" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true" focusable="false"><path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"/></svg>На главную</a></p>
+      </div>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <a class="brand body-1" href="./"><svg viewBox="0 0 512 512" aria-hidden="true" focusable="false"><circle cx="256" cy="256" r="248" fill="#1ED760"/><g fill="#000"><rect x="148" y="220" width="36" height="72" rx="18"/><rect x="208" y="172" width="36" height="168" rx="18"/><rect x="268" y="202" width="36" height="108" rx="18"/><rect x="328" y="232" width="36" height="48" rx="18"/></g></svg>Justify</a>
+        <nav class="footer-links caption-1" aria-label="Ссылки в подвале">
+          <a href="https://github.com/SanLARAN/Justify" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/SanLARAN/Justify/releases" target="_blank" rel="noopener">Все версии</a>
+          <a href="https://boosty.to/maksimkinpodval" target="_blank" rel="noopener">Boosty</a>
+          <a href="privacy.html" aria-current="page">Конфиденциальность</a>
+        </nav>
+      </div>
+      <p class="footer-note caption-5">© 2026 Justify. Justify не связан с YouTube, SoundCloud, Зайцев.нет, Audius, Яндексом и Spotify. Названия сервисов принадлежат их владельцам.</p>
+    </div>
+  </footer>
+</body>
+</html>

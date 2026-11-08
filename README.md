@@ -2,6 +2,8 @@
 
 Бесплатный музыкальный плеер для Windows: поиск и воспроизведение с Зайцев.нет, SoundCloud, YouTube Music и Audius, плейлисты и лайки, перенос музыки из Яндекс Музыки и Spotify, эквалайзер, «Моя волна», тексты песен с переводом, скачивание для офлайна, прокси и VPN, голосовое управление «Джасти».
 
+Сайт: **[sanlaran.github.io/Justify](https://sanlaran.github.io/Justify/)**
+
 ## Скачать
 
 **[⬇ Скачать Justify для Windows](https://github.com/SanLARAN/Justify/releases/latest/download/Justify-win64.zip)** (Windows 10/11, 64-бит, ~170 МБ)

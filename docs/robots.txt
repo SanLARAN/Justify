@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sanlaran.github.io/Justify/sitemap.xml
